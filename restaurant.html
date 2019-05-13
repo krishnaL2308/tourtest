@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Restaurant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  
+
+        <link rel="stylesheet" href="js/jquerykl.min.css" />
+        <link rel="stylesheet" href="js/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="js/jquerykl.css"/>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+        	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+  
+  
+<script>
+
+ function category(){ 
+ 
+ 
+ window.location.href = "category.html";
+ 
+ 
+ }
+ 
+ function weather(){ 
+ 
+ 
+ window.location.href = "weather.html";
+ 
+ 
+ }
+
+
+
+
+
+
+
+ function hiking(){ 
+ 
+ 
+ window.location.href = "hiking.html";
+ 
+ 
+ }
+ 
+ 
+  function Search(){ 
+ 
+ 
+ window.location.href = "search.html";
+ 
+ 
+ }
+ 
+ function nearby(){ 
+ 
+ 
+ window.location.href = "Nearby.html";
+ 
+ 
+ }
+ 
+ 
+ function home(){ 
+ 
+ 
+ window.location.href = "index.html";
+ 
+ 
+ }
+
+</script>
+  
+  
+</head>
+<body>
+
+
+
+
+
+<script type="text/javascript" src="cordova.js"></script>
+
+
+
+
+
+
+<!-- page2 -->
+
+<div data-role="page" id="page1" data-theme="c" >
+
+	<div data-role="header">
+		<h1>City Guide</h1>
+
+             <button><a href="#mypanel" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-bars"></a></button>
+
+	</div><!-- /header -->
+	
+	
+	
+	
+	
+	
+	
+
+	<div data-role="panel" id="mypanel">
+	
+	<div data-role="header">
+<h2>City Guide</h2>
+</div>
+</br>
+<p>More Information</p>
+
+<ul>
+
+   <li><a href="index.html" onClick="home()">Home</a></li></br>
+   <li><a href="category.html" onClick="category()">Category</a></li></br>
+  <li><a href="weather.html" onClick="weather()">weather Info</a></li></br>
+  <li><a href="search.html" onClick="Search()">Search Places</a></li></br>
+   <li><a href="Nearby.html" onClick="nearby()">Nearby Location</a></li>
+  
+</ul>
+</div>
+
+	
+	
+
+
+
+	<!-- /content -->
+	<div role="main" class="ui-content">
+		
+		
+		
+		
+
+
+
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<h2> Maison Eureka </h2>
+<img class="img-responsive" src="img/eureka.jpg" alt="maison" width="500" height="500">
+<p><b>Eureka Lane, Mt Ory, Moka</b></p>
+<p><b>Operating Hours:	09:00 - 17:00</b></p>
+<p><b>Operating Days:	All Days</b></p>
+<p><b>Duration:	1 hrs</b></p>
+<p><b>Activity Time:	Flexible</b></p>
+<p><b>Transportation:	Offered as Supplement</b></p>
+<p><b>Comment-	Opening Hours on Sundays & Public holidays: 09:00 to 15:00</b></p>
+<button type="button" class="btn btn-link ui-btn">View in Map</button> 
+</div>
+
+<div class="col-md-12">
+<h2> Le Barachois Restaurant </h2>
+<img class="img-responsive" src="img/barachois.jpg" alt="barachois" width="500" height="500">
+<p><b>LE BARACHOIS Beachfront Residences</b></p>
+<p><b>Costal Road, Calodyne, Grand-Gaube, Mauritius</b></p>
+<p><b>lebarachois@2futures.mu</b></p>
+<p><b>Tel. (+230) 263 8264  |  Mob. (+230) 5985 1144</b></p>
+<button type="button" id="f" class="btn btn-link ui-btn">View in Map</button> 
+</div>
+
+<div class="col-md-12">
+<h2>Le Chateau de Bel Ombre Heritage</h2>
+<img class="img-responsive" src="img/belombre.jpg" alt="bel" width="500" height="500">
+<p><b>Le Chateau de Bel Ombre, Domaine de Bel Ombre, Heritage Le Telfair Golf & Spa Resort,</b></p>
+<p><b>Bel Ombre, Mauritius, </b></p>
+<p><b>Information & Booking: T: +230 601 55 29</b></p>  
+<p><b>E: rbooking@heritageletelfair.mu</b></p>
+<button type="button" id="g" class="btn btn-link ui-btn">View in Map</button> 
+</div>
+
+<div class="col-md-12">
+<h2>Domaine Anna Restaurant</h2>
+<img class="img-responsive" src="img/anna.jpg" alt="bel" width="500" height="500">
+<p><b>Address: Medine, Flic En Flac, Mauritius</b></p>
+<p><b>Tel: +230 453 9650</b></p>
+<p><b>Closed on Mondays</b></p>
+<p><b>Opening Hours: Tuesday to Sunday 11.30am – 02.30pm and 06.30pm – 10.30pm</b></p>
+<button type="button" id="h" class="btn btn-link ui-btn">View in Map</button>
+</div>
+
+<div class="col-md-12">
+<h2>Le Fangourin </h2>
+<img class="img-responsive" src="img/fangourin.jpg" alt="fang" width="500" height="500">
+<p><b>Le Fangourin, L’Aventure du Sucre, </b></p>
+<p><b>Address: Beau Plan, Pamplemousses , Mauritius, </b></p>
+<p><b>Tel: 230 243 7900</b></p>
+<p><b>Open 7/7 from 9h to 17h, and in the evening to host your private events.</b></p>
+<button type="button" id="i" class="btn btn-link ui-btn">View in Map</button> 
+</div>
+
+</div>
+</div>
+
+		
+		
+		
+		
+		
+	</div><!-- /content -->
+
+
+	<!-- /footer -->
+	<div data-role="footer">
+		<h4></h4>
+	</div><!-- /footer -->
+
+
+
+
+
+
+</div><!-- /page -->
+
+
+
+
+
+
+
+
+<script src="external/jquery/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/tabs.js"></script>
+</body>
+</html>
+
+
+

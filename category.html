@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+	
+	
+	<meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>City Guide</title>
+
+
+
+        <link rel="stylesheet" href="js/jquerykl.min.css" />
+        <link rel="stylesheet" href="js/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="js/jquerykl.css"/>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+        	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+
+<script>
+
+ function category(){ 
+ 
+ 
+ window.location.href = "category.html";
+ 
+ 
+ }
+ 
+ function weather(){ 
+ 
+ 
+ window.location.href = "weather.html";
+ 
+ 
+ }
+
+
+
+
+ function hiking(){ 
+ 
+ 
+ window.location.href = "hiking.html";
+ 
+ 
+ }
+ 
+ 
+ 
+
+ function nature(){ 
+ 
+ 
+ window.location.href = "nature.html";
+ 
+ 
+ }
+ 
+ 
+
+ function restaurant(){ 
+ 
+ 
+ window.location.href = "restaurant.html";
+ 
+ 
+ }
+ 
+ 
+ 
+ function sea(){ 
+ 
+ 
+ window.location.href = "sea.html";
+ 
+ 
+ }
+ 
+ 
+ function viewpoint(){ 
+ 
+ 
+ window.location.href = "viewpoint.html";
+ 
+ 
+ }
+ 
+ 
+ function zoo(){ 
+ 
+ 
+ window.location.href = "zoo.html";
+ 
+ 
+ }
+ 
+ 
+ function beaches(){ 
+ 
+ 
+ window.location.href = "beaches.html";
+ 
+ 
+ }
+ 
+ 
+ function search(){ 
+ 
+ 
+ window.location.href = "search.html";
+ 
+ 
+ }
+
+</script>
+
+	
+	
+	
+	
+<script>
+
+ function category(){ 
+ 
+ 
+ window.location.href = "category.html";
+ 
+ 
+ }
+ 
+ function weather(){ 
+ 
+ 
+ window.location.href = "weather.html";
+ 
+ 
+ }
+
+
+
+
+
+
+
+ function hiking(){ 
+ 
+ 
+ window.location.href = "hiking.html";
+ 
+ 
+ }
+ 
+ 
+  function Search(){ 
+ 
+ 
+ window.location.href = "search.html";
+ 
+ 
+ }
+ 
+ function nearby(){ 
+ 
+ 
+ window.location.href = "Nearby.html";
+ 
+ 
+ }
+ 
+ 
+ function market(){ 
+ 
+ 
+ window.location.href = "market.html";
+ 
+ 
+ }
+ 
+ 
+ function home(){ 
+ 
+ 
+ window.location.href = "index.html";
+ 
+ 
+ }
+
+</script>
+	
+	
+	
+	
+	<style>
+		body{
+			padding: 0px;
+			margin: 0px;
+			font-family: sans-serif;
+		}
+		.app_container{
+			height: 510px;
+			width: 310px;
+			background-color: #ECF0F1;
+			margin: 100px auto 0;
+		}
+		.app_head{
+			height: 60px;
+			width: 310px;
+			float: left;
+			background-color: #2C3D51;
+			line-height: 60px;
+			font-size: 20px;
+			text-align: center;
+			color: #fff;
+		}
+		.places_tile{
+			height: 100px;
+			width: 140px;
+			background-color: #777;
+			margin: 10px 0px 0px 10px;
+			float: left;
+			line-height: 100px;
+			text-align: center;
+			font-size: 18px;
+			color: #fff;
+		}
+		.tile_1{
+			background-color: #E55038;
+		}
+		.tile_2{
+			background-color: #009788;
+		}
+		.tile_3{
+			background-color: #00BCD5;
+		}
+		.tile_4{
+			background-color: #4D342F;
+		}
+		.tile_5{
+			background-color: #607D8B;
+		}
+		.tile_6{
+			background-color: #DA5653;
+		}
+		.tile_7{
+			background-color: #87426C;
+		}
+		.tile_8{
+			background-color: #CDDC39;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+<script type="text/javascript" src="cordova.js"></script>
+
+
+
+
+
+
+
+        <!-- page2 -->
+
+        <div data-role="page" id="page1" data-theme="c" >
+
+        	<div data-role="header">
+        		<h1>City Guide</h1>
+                    
+					
+             <button><a href="#mypanel" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-bars"></a></button>
+
+					
+        	</div><!-- /header -->
+
+
+
+
+
+
+	<div data-role="panel" id="mypanel">
+	
+	<div data-role="header">
+<h2>City Guide</h2>
+</div>
+</br>
+<p>More Information</p>
+
+<ul>
+
+<li><a href="index.html" onClick="home()">Home</a></li></br>
+   <li><a href="category.html" onClick="category()">Category</a></li></br>
+  <li><a href="weather.html" onClick="weather()">weather Info</a></li></br>
+  <li><a href="search.html" onClick="Search()">Search Places</a></li></br>
+   <li><a href="Nearby.html" onClick="nearby()">Nearby Location</a></li>
+  
+</ul>
+</div>
+
+
+
+
+
+        	<!-- /content -->
+        	<div role="main" class="ui-content">
+
+				  
+
+	<div class="app_container">
+		<div class="app_head">Choose your liking??</div>
+		<a href="hiking.html" onClick="hiking()"><div class="places_tile tile_1">hiking</div></a>
+		<a href="nature.html" onClick="nature()"><div class="places_tile tile_2">Nature</div></a>
+		<a href="restaurant.html" onClick="restaurant()"><div class="places_tile tile_3">Restaurant</div></a>
+		<a href="sea.html" onClick="sea()"><div class="places_tile tile_4">Sea Activities</div></a>
+		<a href="viewpoint.html" onClick="viewpoint()"><div class="places_tile tile_5">Viewpoint</div></a>
+		<a href="zoo.html" onClick="zoo()"><div class="places_tile tile_6">Zoo</div></a>
+		<a href="beaches.html" onClick="beaches()"><div class="places_tile tile_7">Beaches</div></a>
+		<a href="market.html" onclick="market()"><div class="places_tile tile_8">Shopping</div></a>
+	</div>
+				  
+
+
+        	</div><!-- /content -->
+
+
+        	<!-- /footer -->
+        	<div data-role="footer">
+        		<h4></h4>
+        	</div><!-- /footer -->
+
+
+        </div><!-- /page -->
+
+
+        <script src="external/jquery/jquery.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/tabs.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
